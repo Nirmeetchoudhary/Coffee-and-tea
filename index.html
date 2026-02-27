@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Business Analytics Dashboard | Looker Studio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:#f4f6f9;
+        }
+
+        header{
+            background:#1f2937;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        header h1{
+            font-size:26px;
+        }
+
+        .container{
+            width:95%;
+            margin:20px auto;
+        }
+
+        .iframe-wrapper{
+            position:relative;
+            width:100%;
+            height:90vh;
+            background:white;
+            border-radius:10px;
+            box-shadow:0 8px 20px rgba(0,0,0,0.15);
+            overflow:hidden;
+        }
+
+        iframe{
+            width:100%;
+            height:100%;
+            border:none;
+        }
+
+        footer{
+            text-align:center;
+            padding:15px;
+            background:#1f2937;
+            color:white;
+            margin-top:20px;
+            font-size:13px;
+        }
+
+        .note{
+            text-align:center;
+            margin:10px 0;
+            font-size:14px;
+            color:#444;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Business Analytics Dashboard</h1>
+    <p>Interactive Looker Studio Report</p>
+</header>
+
+<div class="container">
+
+    <div class="note">
+        This dashboard is fully interactive. Use filters and charts to explore insights.
+    </div>
+
+    <div class="iframe-wrapper">
+        <iframe 
+            src="https://lookerstudio.google.com/embed/reporting/e1396a02-f9d6-4100-824d-d6b3871d9120/page/VYwOF"
+            allowfullscreen
+            sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+        </iframe>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Business Analytics Dashboard | Built with Looker Studio
+</footer>
+
+</body>
+</html>
